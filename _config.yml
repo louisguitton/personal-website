@@ -9,15 +9,14 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
@@ -27,15 +26,15 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
-  # linkedin: your_username
-  # medium: @your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
+  # facebook: louis.guitton.5
+  linkedin: louisguitton
+  medium: "@LaGuitteMH"
+  stackoverflow: 3823815
+  telegram: louisguitton
+  twitter: louis_guitton
   # youtube: your_username
   # vk: your_username
 
